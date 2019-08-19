@@ -5,9 +5,9 @@ description: "Work hard, Play hard"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /blog/
-google_analytics: 'UA-145539458-1'
-disqus: 'cinloblog'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=68e161d25363c34bd12aff1a0&amp;id=ea46e6bd1d'
+google_analytics: 'UA-145985098-1'
+disqus: 'leguatech'
+mailchimp-list: 'https://gmail.us3.list-manage.com/subscribe/post?u=fbd6b475aad0a97da835f8f3b&amp;id=be095018e5'
 include: ["_pages"]
 permalink: /:title/
 
