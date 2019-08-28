@@ -41,6 +41,7 @@ ga('send', 'pageview');
 	</noscript>
 
 
+
 <!-- Begin Menu Navigation
 ================================================== -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
@@ -52,6 +53,14 @@ ga('send', 'pageview');
     <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
     </a>
     <!-- End Logo -->
+
+    <!-- Site Name -->
+    
+    <div class="mainheading">
+    <h1 class="sitetitle">{{ site.name }}</h1>
+    </div>
+    <!-- End Name -->
+   
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -68,15 +77,27 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html">All</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/tech">Tech</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/beauty">Beauty</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/fashion">Fashion</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl }}/home">Home & Life</a>
                 </li>
 
                 <li class="nav-item">
                 <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="https://www.notion.so/xinluzhao/LE-GUA-TECH-bc158fc7ddfa4a91bf385606dd7ae732" target="_blank"></i> Wiki for Le Gua Tech</a>
                 </li>
 
                 {% include search-lunr.html %}
@@ -92,6 +113,14 @@ ga('send', 'pageview');
 <!-- End Navigation
 ================================================== -->
 
+<!-- Background
+================================================== -->
+
+<div class="jumbotron fortags">
+</div>
+
+
+
 <div class="site-content">
 
 <div class="container">
@@ -99,11 +128,8 @@ ga('send', 'pageview');
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>
 </div>
+
 
 <!-- Content
 ================================================== -->
@@ -116,7 +142,7 @@ ga('send', 'pageview');
 ================================================== -->
 <div class="alertbar">
 	<div class="container text-center">
-		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+		<span> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
             <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
@@ -131,7 +157,7 @@ ga('send', 'pageview');
 
 <!-- Categories Jumbotron
 ================================================== -->
-<div class="jumbotron fortags">
+<!-- <div class="jumbotron fortags">
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
             <div class="d-md-flex align-items-center justify-content-center h-100">
@@ -152,7 +178,7 @@ ga('send', 'pageview');
             {% assign categories_list = nil %}
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!-- Begin Footer
 ================================================== -->
@@ -160,10 +186,7 @@ ga('send', 'pageview');
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
-            </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+                Copyright © {{ site.time | date: "%Y" }} Le Gua Tech L.L.C 
             </div>
         </div>
     </div>
