@@ -26,14 +26,15 @@
         system "mv _site /Users/cinlo/Desktop/GitHub/temp"
         system "git checkout gh-pages"
         system "rm -rf *"
-        system "mv /Users/cinlo/Desktop/GitHub/temp/_site/* ."
+        system "mv /Users/cinlo/Desktop/GitHub/temp/_site/* /Users/cinlo/Desktop/GitHub/leguatech-blog"
         system "git add ."
         system "git commit -am #{message.shellescape}"
-        system "git push origin gh-pages --force"
+        system "git push origin gh-pages"
 
         # #fetch 
         # system "git checkout master"
         # system "git fetch"
+        # test
 
 
       end
