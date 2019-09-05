@@ -27,6 +27,7 @@
         system "git checkout gh-pages"
         system "rm -rf *"
         system "mv /Users/cinlo/Desktop/GitHub/temp/_site/* /Users/cinlo/Desktop/GitHub/leguatech-blog"
+        system "rm -rf /Users/cinlo/Desktop/GitHub/temp/_site/"
         system "git add ."
         system "git commit -am #{message.shellescape}"
         system "git push origin gh-pages"
