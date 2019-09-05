@@ -15,31 +15,26 @@
     desc "Generate and publish blog to gh-pages"
     task :publish => [:generate] do
       Dir.mktmpdir do |tmp|
-        #reset the temp dir
-        system "rm -rf /Users/cinlo/Desktop/GitHub/site_built"
-        system "mkdir /Users/cinlo/Desktop/GitHub/site_built"
-        system "rm -rf /Users/cinlo/Desktop/GitHub/site_dev"
-        system "mkdir /Users/cinlo/Desktop/GitHub/site_dev"
-
-        #move into 2 different dir
-        system "mv _site /Users/cinlo/Desktop/GitHub/site_built"
-        system "mv /Users/cinlo/Desktop/GitHub/leguatech-blog/* /Users/cinlo/Desktop/GitHub/site_dev"
+        #checkout master
+        system "git checkout master"
+        system "git add ."
+        message = "Site updated at #{Time.now.utc}"
+        system "git commit -am #{message.shellescape}"
+        system "git push origin"
 
         #checkout gh-pages
         system "git checkout gh-pages"
-        system "mv /Users/cinlo/Desktop/GitHub/site_built/_site/* /Users/cinlo/Desktop/GitHub/leguatech-blog"
-        message = "Site updated at #{Time.now.utc}"
+        system "mv _site #{tmp}"
+        system "rm -rf *"
+        system "mv #{tmp} ."
         system "git add ."
         system "git commit -am #{message.shellescape}"
         system "git push origin gh-pages --force"
 
+        # #fetch 
+        # system "git checkout master"
+        # system "git fetch"
 
-        #checkout master
-        system "git checkout master -f"
-        system "mv /Users/cinlo/Desktop/GitHub/site_dev/ /Users/cinlo/Desktop/GitHub/leguatech-blog"
-        system "git add ."
-        system "git commit -am #{message.shellescape}"
-        system "git push origin"
-        system "echo yolo"
+
       end
     end
