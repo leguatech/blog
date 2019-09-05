@@ -1,30 +1,203 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Le Gua</title>
+    <description>Work hard, Play hard</description>
+    <link>http://localhost:4000/blog//</link>
+    <atom:link href="http://localhost:4000/blog//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 04 Sep 2019 20:50:32 -0400</pubDate>
+    <lastBuildDate>Wed, 04 Sep 2019 20:50:32 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime/</guid>
+        
+        
+        <category>Sublime</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC9-%E4%B8%8A%E5%8D%8811.20.38/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC9-%E4%B8%8A%E5%8D%8811.20.38/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC8-%E4%B8%8A%E5%8D%8811.20.38/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC8-%E4%B8%8A%E5%8D%8811.20.38/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC7-%E4%B8%8A%E5%8D%8811.20.38/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC7-%E4%B8%8A%E5%8D%8811.20.38/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC6/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC6/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC5/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC5/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC4/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC4/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC3/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC3/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC2/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC2/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>How to Find Keyword from One or Multiple Files in Sublime 3?</title>
+        <description>&lt;p&gt;Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search.&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-search&quot;&gt;Quick search&lt;/h1&gt;
+
+&lt;h1 id=&quot;standard-search&quot;&gt;Standard Search&lt;/h1&gt;
+
+&lt;h1 id=&quot;multi-file-search&quot;&gt;Multi-file search&lt;/h1&gt;
+</description>
+        <pubDate>Tue, 27 Aug 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC16-%E4%B8%8A%E5%8D%8811.20.18/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC16-%E4%B8%8A%E5%8D%8811.20.18/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
   </channel>
 </rss>
