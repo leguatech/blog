@@ -23,10 +23,10 @@
         system "git push origin"
 
         #checkout gh-pages
-        system "mv _site #{tmp}"
+        system "mv _site /Users/cinlo/Desktop/GitHub/temp"
         system "git checkout gh-pages"
         system "rm -rf *"
-        system "mv #{tmp} ."
+        system "mv /Users/cinlo/Desktop/GitHub/temp/_site/* ."
         system "git add ."
         system "git commit -am #{message.shellescape}"
         system "git push origin gh-pages --force"
