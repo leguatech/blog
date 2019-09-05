@@ -1,142 +1,142 @@
 
 var documents = [{
     "id": 0,
-    "url": "http://localhost:4000/blog//404.html",
+    "url": "/blog//404.html",
     "title": "404",
     "body": "404 Page does not exist!Please use the search bar at the top or visit our homepage! "
     }, {
     "id": 1,
-    "url": "http://localhost:4000/blog//about",
+    "url": "/blog//about",
     "title": "Mediumish Template for Jekyll",
     "body": "This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.  Documentation: Please, read the docs here. Questions or bug reports?: Head over to our Github repository! Buy me a coffeeThank you for your support! Your donation helps me to maintain and improve Mediumish . Buy me a coffee Documentation"
     }, {
     "id": 2,
-    "url": "http://localhost:4000/blog//",
+    "url": "/blog//",
     "title": "Blog",
     "body": "      Featured:                                                                                                                                 All Stories:             "
     }, {
     "id": 3,
-    "url": "http://localhost:4000/blog//robots.txt",
+    "url": "/blog//robots.txt",
     "title": "",
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 4,
-    "url": "http://localhost:4000/blog//beauty/index.html",
+    "url": "/blog//beauty/index.html",
     "title": "Beauty",
     "body": ""
     }, {
     "id": 5,
-    "url": "http://localhost:4000/blog//fashion/index.html",
+    "url": "/blog//fashion/index.html",
     "title": "Fashion",
     "body": ""
     }, {
     "id": 6,
-    "url": "http://localhost:4000/blog//life/index.html",
+    "url": "/blog//life/index.html",
     "title": "Life",
     "body": ""
     }, {
     "id": 7,
-    "url": "http://localhost:4000/blog//tech/index.html",
+    "url": "/blog//tech/index.html",
     "title": "Tech",
     "body": ""
     }, {
     "id": 8,
-    "url": "http://localhost:4000/blog//tech/page/2/index.html",
+    "url": "/blog//tech/page/2/index.html",
     "title": "Tech - page 2",
     "body": ""
     }, {
     "id": 9,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime/",
+    "url": "/blog//how-to-find-in-folders-sublime/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 10,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC9-%E4%B8%8A%E5%8D%8811.20.38/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC9-%E4%B8%8A%E5%8D%8811.20.38/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 11,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC8-%E4%B8%8A%E5%8D%8811.20.38/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC8-%E4%B8%8A%E5%8D%8811.20.38/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 12,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC7-%E4%B8%8A%E5%8D%8811.20.38/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC7-%E4%B8%8A%E5%8D%8811.20.38/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 13,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC6/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC6/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 14,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC5/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC5/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 15,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC4/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC4/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 16,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC3/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC3/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 17,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC2/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC2/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 18,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC16-%E4%B8%8A%E5%8D%8811.20.18/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC16-%E4%B8%8A%E5%8D%8811.20.18/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 19,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC15-%E4%B8%8A%E5%8D%8811.20.18/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC15-%E4%B8%8A%E5%8D%8811.20.18/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 20,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC14-%E4%B8%8A%E5%8D%8811.20.18/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC14-%E4%B8%8A%E5%8D%8811.20.18/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 21,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC13-%E4%B8%8A%E5%8D%8811.20.18/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC13-%E4%B8%8A%E5%8D%8811.20.18/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 22,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC12-%E4%B8%8A%E5%8D%8811.20.18/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC12-%E4%B8%8A%E5%8D%8811.20.18/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 23,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC11-%E4%B8%8A%E5%8D%8811.20.18/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC11-%E4%B8%8A%E5%8D%8811.20.18/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 24,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC10-%E4%B8%8A%E5%8D%8811.20.38/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC10-%E4%B8%8A%E5%8D%8811.20.38/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 25,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC/",
+    "url": "/blog//how-to-find-in-folders-sublime%E7%9A%84%E5%89%AF%E6%9C%AC/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 26,
-    "url": "http://localhost:4000/blog//how-to-find-in-folders-sublime/",
+    "url": "/blog//how-to-find-in-folders-sublime/",
     "title": "How to Find Keyword from One or Multiple Files in Sublime 3?",
     "body": "2019/08/27 - Sublime Text 3 provides powerful search and replacement features, which can be divided into three types: quick search, standard search and multi-file search. Quick searchStandard SearchMulti-file search"
     }, {
     "id": 27,
-    "url": "http://localhost:4000/blog//00000/",
+    "url": "/blog//00000/",
     "title": "Example",
     "body": "2019/08/22 - Special formatting:  strike through ==highlight== *escaped characters*Writing code blocks: like this 123. my-link {  text-decoration: underline;}HTML: 12345&lt;li class= ml-1 mr-1 &gt;  &lt;a target= _blank  href= # &gt;  &lt;i class= fab fa-twitter &gt;&lt;/i&gt;  &lt;/a&gt;&lt;/li&gt;CSS: 12345678. highlight . c {  color: #999988;  font-style: italic; }. highlight . err {  color: #a61717;  background-color: #e3d2d2; }JS: 123456789// alertbar later$(document). scroll(function () {  var y = $(this). scrollTop();  if (y &gt; 280) {    $('. alertbar'). fadeIn();  } else {    $('. alertbar'). fadeOut();  }});Python: 1print( Hello World )Ruby: 123require 'redcarpet'markdown = Redcarpet. new( Hello World! )puts markdown. to_htmlC: 1printf( Hello World );image: add ! to hide the name superlink: test Reference lists:  It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story. Full HTML: Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example: Spoiler: My hidden paragraph here. "
     }];
