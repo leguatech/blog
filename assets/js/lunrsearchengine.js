@@ -13,7 +13,7 @@ var documents = [{
     "id": 2,
     "url": "/blog//",
     "title": "Blog",
-    "body": "      Featured:                                                                                                                                 All Stories:             "
+    "body": ""
     }, {
     "id": 3,
     "url": "/blog//robots.txt",
