@@ -31,11 +31,7 @@
         system "git commit -am #{message.shellescape}"
         system "git push origin gh-pages"
 
-        # #fetch 
-        # system "git checkout master"
-        # system "git fetch"
-        # test
-
-
+        # go back to master 
+        system "git checkout master"
       end
     end
