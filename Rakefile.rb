@@ -23,8 +23,8 @@
         system "git push origin"
 
         #checkout gh-pages
-        system "git checkout gh-pages"
         system "mv _site #{tmp}"
+        system "git checkout gh-pages"
         system "rm -rf *"
         system "mv #{tmp} ."
         system "git add ."
