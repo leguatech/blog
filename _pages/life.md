@@ -9,4 +9,3 @@ pagination:
       - life
     matching: any
 ---
-

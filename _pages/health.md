@@ -1,12 +1,11 @@
 ---
 layout: template
-title: Tech
-permalink: /tech
+title: Health
+permalink: /health
 pagination: 
   enabled: true
   categories:
     values:
-      - tech
+      - health
     matching: any
 ---
-
