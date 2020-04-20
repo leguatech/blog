@@ -1,20 +1,31 @@
 ---
 layout: default
+title: Beauty
+permalink: /beauty
+pagination: 
+  enabled: true
+  categories:
+    values:
+      - beauty
+    matching: any
 ---
-
+<section>
+    WE SEE 
+    WE CONQUER
+</section>
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>Featured</span></h2>
+        <h2><span>The Ordinary Products</span></h2>
     </div>
     <div class="row">
 
     {% for post in site.posts %}
 
-        {% if post.featured == true %}
+        {% if post.ordinary == true %}
 
-            {% include featuredbox.html %}
+            {% include postbox.html %}
 
         {% endif %}
 
@@ -36,8 +47,9 @@ layout: default
     <div class="row listrecent">
 
         {% for post in paginator.posts %}
-
-            {% include postbox.html %}
+        	{% if post.list == true %}
+            	{% include postbox.html %}
+            {% endif %}
 
         {% endfor %}
 
@@ -53,5 +65,3 @@ layout: default
     {% include pagination.html %}
 </span>
 </div>
-
-

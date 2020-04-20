@@ -1,11 +1,11 @@
 ---
 layout: template
-title: Life
-permalink: /life
+title: Industry
+permalink: /industry
 pagination: 
   enabled: true
   categories:
     values:
-      - life
+      - industry
     matching: any
 ---
