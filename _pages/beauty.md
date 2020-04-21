@@ -25,7 +25,7 @@ pagination:
 
         {% if post.ordinary == true %}
 
-            {% include postbox.html %}
+            {% include postbox_content.html %}
 
         {% endif %}
 
