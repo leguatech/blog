@@ -2,9 +2,7 @@
 layout: default
 title: Health
 permalink: /health
-pagination: 
-  enabled: true
-  categories:
+categories:
     values:
       - health
     matching: any

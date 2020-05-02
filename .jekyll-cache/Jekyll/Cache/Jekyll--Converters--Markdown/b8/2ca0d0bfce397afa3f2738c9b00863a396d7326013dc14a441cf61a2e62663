@@ -1,13 +1,4 @@
----
-layout: default
-title: Beauty
-permalink: /beauty
-categories:
-    values:
-      - beauty
-    matching: any
----
-<section>
+I"M<section>
     WE SEE 
     WE CONQUER
 </section>
@@ -15,15 +6,15 @@ categories:
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>The Ordinary Products</span></h2>
+        <h2><span>Featured</span></h2>
     </div>
     <div class="row">
 
     {% for post in site.posts %}
 
-        {% if post.ordinary == true %}
+        {% if post.featured == true %}
 
-            {% include postbox_content.html %}
+            {% include postbox.html %}
 
         {% endif %}
 
@@ -63,3 +54,4 @@ categories:
     {% include pagination.html %}
 </span>
 </div>
+:ET
